@@ -1,10 +1,17 @@
-﻿namespace Chess_Console
+﻿using Tabuleiro;
+
+namespace Chess_Console
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Posicao p;
+
+            p = new Posicao(3, 4);
+            Console.WriteLine("Posição: " + p);
+
+            Console.ReadLine(); 
         }
     }
 }
